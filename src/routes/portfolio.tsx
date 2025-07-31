@@ -5,9 +5,5 @@ export const Route = createFileRoute("/portfolio")({
 });
 
 function Portfolio() {
-  return (
-    <div className="p-2">
-      <h3>Portfolio</h3>
-    </div>
-  );
+  return <h3>Portfolio</h3>;
 }

@@ -25,13 +25,13 @@ const posts = [
 
 function Home() {
   return (
-    <div className="p-2">
+    <>
       <h3>Home</h3>
       <div className="flex flex-col gap-2">
         {posts.map((post) => (
           <Post key={post.id} title={post.title} content={post.content} />
         ))}
       </div>
-    </div>
+    </>
   );
 }

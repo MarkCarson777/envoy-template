@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 export function Header() {
   return (
-    <div className="flex gap-2 border-b border-gray-200">
+    <div className="flex gap-4 border-b border-gray-200 p-4">
       <Link to="/home" className="[&.active]:font-bold">
         Home
       </Link>
